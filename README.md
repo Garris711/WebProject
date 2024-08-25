@@ -1,6 +1,7 @@
 # Project01: Car Analytics
 
-## Tean Member: Nyan Lin Htet(6430031) , Hein Htoo Naing(6440027), Sai Sy Hein(6420131)
+## Team Member:
+Nyan Lin Htet(6430031) , Hein Htoo Naing(6440027), Sai Sy Hein(6420131)
 
 ---
 
