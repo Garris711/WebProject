@@ -14,7 +14,7 @@ function App() {
   };
 
   return (
-    <Router>
+    <Router basename="/WebProject">  {/* Updated basename */}
       <Navbar />
       <Routes>
         <Route path="/" element={<Dashboard onHighlight={handleHighlight} />} />
