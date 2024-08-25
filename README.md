@@ -5,15 +5,7 @@ Nyan Lin Htet(6430031) , Hein Htoo Naing(6440027), Sai Sy Hein(6420131)
 
 ---
 
-### [GitHub Repo](https://github.com/Garris711/Webproject)
-
----
-
----
-
-## Introduction
-
-Welcome to the Car Analytics Web App, a React.js-based application designed for market owners to analyze car data. This project involves visual data representations such as tables, pie charts, and stacked bar charts, using data sourced from a JSON file. The application is lightweight and uses Local Storage for data persistence.
+ [GitHub Repo](https://github.com/Garris711/Webproject/car-analytics)
 
 ---
 
