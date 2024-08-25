@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Dashboard from './components/Dashboard';
 import HighlightedCars from './components/HighlightedCars';
@@ -17,7 +17,8 @@ function App() {
     <Router basename="/WebProject">
       <Navbar />
       <Routes>
-        <Route path="/" element={<Dashboard onHighlight={handleHighlight} />} />
+        <Route path="/" element={<Navigate to="/dashboard" replace />} />
+        <Route path="/dashboard" element={<Dashboard onHighlight={handleHighlight} />} />
         <Route path="/highlighted-cars" element={<HighlightedCars />} />
       </Routes>
     </Router>
